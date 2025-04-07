@@ -1,5 +1,7 @@
 package loose.coupling;
 
+// separates business logic from data source logic.
+
 public class UserManager {
     private UserDataProvider userDataProvider;
 
