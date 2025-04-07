@@ -4,3 +4,13 @@ lifecycle management is transferred from Application code to the external contai
 "Dependency Injection (DI)" is a design principle where the dependencies of the program are
 provided externally rather than being created within the class itself.
 
+objects that are managed by the frameworks are "Beans", done through configuring file in package.
+
+"Spring Containerization" is the process of keeping multiple objects within 1 container,
+which is based on the configuration file definition of the classes to be managed.
+Types:-
+1. Application Context - Mostly used.
+2. BeanFactory - Provides basic support for dependency injection, simplest.
+
+Dependencies to add in 'pom.xml' file-
+-> Maven Repository: 1. Spring-Core, 2. Spring-Context
