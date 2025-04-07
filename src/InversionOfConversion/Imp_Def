@@ -1,0 +1,6 @@
+"Inversion of control (IOC)" is a design principle where the control of object creation and
+lifecycle management is transferred from Application code to the external container or framework.
+
+"Dependency Injection (DI)" is a design principle where the dependencies of the program are
+provided externally rather than being created within the class itself.
+
